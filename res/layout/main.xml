@@ -15,6 +15,8 @@
      android:text="@string/deliver_bacon"
      android:onClick="deliverBacon" />
 <ImageView
+		 android:id="@+id/bacon_image"
+		 android:visibility="invisible"
 		 android:layout_height="wrap_content"	
 		 android:layout_width="fill_parent"
 		 android:src="@drawable/bacon"/>

@@ -2,8 +2,8 @@ package com.cereslogic.androidpreso;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Hello extends Activity {
     /** Called when the activity is first created. */
@@ -14,6 +14,11 @@ public class Hello extends Activity {
     }
 
     public void deliverBacon(View view) {
-    	Log.i("Demo App", "TODO: Figure Out How To Deliver Bacon!");
+    	ImageView i = (ImageView)findViewById(R.id.bacon_image);
+    	if (i.getVisibility() == View.INVISIBLE) {
+    		i.setVisibility(View.VISIBLE);
+    	} else {
+    		i.setVisibility(View.INVISIBLE);
+    	}
     }
 }
