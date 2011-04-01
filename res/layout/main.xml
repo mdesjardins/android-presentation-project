@@ -9,9 +9,4 @@
     android:layout_height="wrap_content" 
     android:text="@string/hello"
     />  
-<Button
-     android:layout_height="wrap_content"
-     android:layout_width="wrap_content"
-     android:text="@string/deliver_bacon"
-     android:onClick="deliverBacon" />
 </LinearLayout>

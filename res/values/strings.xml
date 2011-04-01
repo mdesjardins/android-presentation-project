@@ -2,5 +2,4 @@
 <resources>
     <string name="hello">Hello World, Hello!</string>
     <string name="app_name">AndroidPresentation</string>
-    <string name="deliver_bacon">Please Deliver Bacon!</string>
 </resources>
