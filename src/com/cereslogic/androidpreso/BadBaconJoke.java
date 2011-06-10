@@ -28,7 +28,7 @@ public class BadBaconJoke extends Activity {
 	  @Override
 	  protected String doInBackground(Void... params) {
 	  	try {
-				Thread.sleep(5000);
+				Thread.sleep(8000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
