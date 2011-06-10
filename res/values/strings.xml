@@ -3,4 +3,15 @@
     <string name="hello">Hello World, Hello!</string>
     <string name="app_name">AndroidPresentation</string>
     <string name="deliver_bacon">Please Deliver Bacon!</string>
+    <string name="show_bacon_treats">Show me treats!</string>
+    <string name="bacon_treat_list">Bacon Treat List</string>
+		<string name="bacon_plain">Bacon (Plain)</string>
+    <string name="bacon_lettuce_tomato_sandwich">Bacon, Lettuce, Tomato sandwich</string>
+		<string name="bacon_and_eggs">Bacon and Eggs</string>
+		<string name="bacon_cheeseburger">Bacon Cheeseburger</string>
+		<string name="bacon_bits">Bacon Bits</string>
+		<string name="bacon_ice_cream">Bacon Ice Cream</string>
+		<string name="bacon_chewing_gum">Bacon Chewing Gum</string>
+		<string name="bacon_lollipop">Bacon Lollipop</string>
+		<string name="bad_bacon_joke">Bad Bacon Joke</string>
 </resources>
