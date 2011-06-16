@@ -11,8 +11,8 @@ public class Hello extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+    		super.onCreate(savedInstanceState);
+    		setContentView(R.layout.main);
     }
 
     public void showBaconTreats(View view) {
@@ -22,12 +22,12 @@ public class Hello extends Activity {
     }
     
     public void deliverBacon(View view) {
-    	ImageView i = (ImageView)findViewById(R.id.bacon_image);
-    	if (i.getVisibility() == View.INVISIBLE) {
-    		i.setVisibility(View.VISIBLE);
-    	} else {
-    		i.setVisibility(View.INVISIBLE);
-    	}
+	    	ImageView i = (ImageView)findViewById(R.id.bacon_image);
+	    	if (i.getVisibility() == View.INVISIBLE) {
+	    		i.setVisibility(View.VISIBLE);
+	    	} else {
+	    		i.setVisibility(View.INVISIBLE);
+	    	}
     }
     
     public void badBaconJoke(View view) {
