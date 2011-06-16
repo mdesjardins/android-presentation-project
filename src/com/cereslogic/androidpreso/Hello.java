@@ -14,6 +14,6 @@ public class Hello extends Activity {
     }
 
     public void deliverBacon(View view) {
-    		Log.i("Demo App", "TODO: Figure Out How To Deliver Bacon!");
+    		Log.i("DemoApp", "TODO: Figure Out How To Deliver Bacon!");
     }
 }
