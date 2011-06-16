@@ -9,11 +9,11 @@ public class Hello extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.main);
     }
 
     public void deliverBacon(View view) {
-    	Log.i("Demo App", "TODO: Figure Out How To Deliver Bacon!");
+    		Log.i("Demo App", "TODO: Figure Out How To Deliver Bacon!");
     }
 }
