@@ -43,7 +43,7 @@ public class BadBaconJoke extends Activity {
    		.setMessage(result).setCancelable(false).setTitle("Punchline")
    		.setPositiveButton("Groan", new DialogInterface.OnClickListener() {
    					public void onClick(DialogInterface dialog, int which) {
-   						Toast.makeText(getApplicationContext(), "Sorry.", Toast.LENGTH_LONG);
+   						Toast.makeText(getApplicationContext(), "Sorry.", Toast.LENGTH_LONG).show();
    					}
    				}
    		).show();
