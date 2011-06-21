@@ -37,7 +37,7 @@ public class BaconBroadcastReceiver extends BroadcastReceiver {
 		CharSequence tickerText = "Bacongram received";
 		long when = System.currentTimeMillis();
 		Notification notification = new Notification(android.R.drawable.alert_light_frame, tickerText, when);
-		CharSequence contentTitle = "New SMS Message"; 
+		CharSequence contentTitle = "Bacongram received"; 
 		CharSequence contentText = text; 
 		Intent notificationIntent = new Intent(); 
 		PendingIntent contentIntent = PendingIntent.getActivity(context, 0, notificationIntent, 0);
